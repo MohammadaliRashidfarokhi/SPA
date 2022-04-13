@@ -60,4 +60,29 @@ These are the requirements for the Memory application that should exists as a wi
 
 <hr>
 
+F4: Chat window application
+
+The chat application should exists as a window application in the PWD. The chat application shall be connected to other students chats via a web socket-server.
+
+1. The user should be able to have several chat applications running at the same time.
+
+2. When the user opens the application for the first time the user should be asked to write his/her username.
+
+3. The username should remain the same the next time the user starts a chat application or the PWD is restarted.
+
+4. The user should be able to send chat messages using a textarea.
+
+5. The user should be able to see at least the 20 latest messages since the chat applications was opened.
+
+6. One, by you decided, extended feature.
+
+<hr>
+
+F5: Alarm window application
+
+1. The user should be able to set a time in the calendar.
+
+2. Once the scheduled time has been reached, the alram sound should play
+
+3. It should be possible for the user to turn off the alarm sound.
 
