@@ -1,0 +1,245 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Web site created using create-snowpack-app" />
+  <link rel="stylesheet" type="text/css" href="/index.css" />
+  <title>Snowpack App</title>
+</head>
+
+<body>
+  <canvas id="canvas"></canvas>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <script type="module" src="/_dist_/index.js"></script>
+  <!--
+      This HTML file is a template.
+      If you open it directly in the browser, you will see an empty page.
+
+      You can add webfonts, meta tags, or analytics to this file.
+      The build step will place the bundled scripts into the <body> tag.
+
+      To begin the development, run `npm start` or `yarn start`.
+      To create a production bundle, use `npm run build` or `yarn build`.
+      
+    -->
+  <div class="render">
+    <nav id="btm-launcher" class="nav-launcher animated slideInUp">
+      <div class="container">
+        <div class="nav-bg" style="outline: rgb(255, 0, 0) dashed 1px;">
+          <span style="padding: 0px 133px 0px 8px;" class="animated zoomIn"><img id="memory"
+              src="./Images/memory.png"></span>
+              
+          <span style="padding: 0px 133px 0px 8px; " class="animated zoomIn"><img style="margin-left: 30px;" id="alarm"
+              src="./Images/download.png"></span>
+
+          <span class="animated zoomIn"><img style="margin-left: 30px;" id="Chat" src="./Images/134914.png"></span>
+          
+        </div>
+      </div>
+    </nav>
+
+  </div>
+
+</body>
+<style>
+  body {
+    background-color: #f5f5f5;
+    background-image: url("./Images/backGround.png");
+
+
+  }
+
+  .nav-bg span {
+    cursor: pointer;
+  }
+
+  img {
+    height: 50px;
+  }
+
+  div .content {
+ 
+    font-family: Muli, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 21.4285px;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+
+  
+    background-attachment: scroll;
+    background-color: rgba(0, 0, 0, 0);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(51, 51, 51);
+
+  
+    height: 714px;
+    width: 1170px;
+    border: 0px none rgb(51, 51, 51);
+    border-top: 0px none rgb(51, 51, 51);
+    border-right: 0px none rgb(51, 51, 51);
+    border-bottom: 0px none rgb(51, 51, 51);
+    border-left: 0px none rgb(51, 51, 51);
+    margin: 0px 174.5px;
+    padding: 0px;
+    max-height: 100%;
+    min-height: 0px;
+    max-width: 98%;
+    min-width: 0px;
+
+  
+    position: static;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    float: none;
+    display: flex;
+    clear: none;
+    z-index: auto;
+
+  
+    list-style-image: none;
+    list-style-type: disc;
+    list-style-position: outside;
+
+
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    caption-side: top;
+    empty-cells: show;
+    table-layout: auto;
+
+ 
+    overflow: visible;
+    cursor: grab;
+    visibility: visible;
+
+
+    transform: none;
+    transition: all 0s ease 0s;
+    outline: rgb(255, 0, 0) dashed 1px;
+    outline-offset: 0px;
+    box-sizing: border-box;
+    resize: none;
+    text-shadow: none;
+    text-overflow: clip;
+    word-wrap: normal;
+    box-shadow: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+
+  }
+
+  div .nav-bg {
+
+    font-family: Muli, sans-serif;
+    font-size: 15px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 21.4285px;
+    text-decoration: none solid rgb(51, 51, 51);
+    text-align: start;
+    text-indent: 0px;
+    text-transform: none;
+    vertical-align: baseline;
+    white-space: normal;
+    word-spacing: 0px;
+
+
+    background-attachment: scroll;
+    background-color: rgb(255, 255, 255);
+    background-image: none;
+    background-position: 0% 0%;
+    background-repeat: repeat;
+    color: rgb(51, 51, 51);
+
+   
+    height: 55.425px;
+    width: 521px;
+    border: 0px none rgb(51, 51, 51);
+    border-top: 0px none rgb(51, 51, 51);
+    border-right: 0px none rgb(51, 51, 51);
+    border-bottom: 0px none rgb(51, 51, 51);
+    border-left: 0px none rgb(51, 51, 51);
+    margin: 0px 492.5px;
+    padding: 0px 5px 7px;
+    max-height: none;
+    min-height: 0px;
+    max-width: none;
+    min-width: 0px;
+
+    /* Positioning */
+    position: static;
+    top: auto;
+    bottom: auto;
+    right: auto;
+    left: auto;
+    float: none;
+    display: table;
+    clear: none;
+    z-index: auto;
+
+   
+    list-style-image: none;
+    list-style-type: disc;
+    list-style-position: outside;
+
+   
+    border-collapse: separate;
+    border-spacing: 0px 0px;
+    caption-side: top;
+    empty-cells: show;
+    table-layout: auto;
+
+  
+    overflow: visible;
+    cursor: auto;
+    visibility: visible;
+
+   
+    transform: none;
+    transition: all 0s ease 0s;
+    outline: rgb(255, 0, 0) dashed 1px;
+    outline-offset: 0px;
+    box-sizing: border-box;
+    resize: none;
+    text-shadow: none;
+    text-overflow: clip;
+    word-wrap: normal;
+    box-shadow: rgba(88, 78, 78, 0.43) 0px 0px 1px 0px;
+    border-top-left-radius: 4px;
+    border-top-right-radius: 4px;
+    border-bottom-left-radius: 4px;
+    border-bottom-right-radius: 4px;
+    display: -webkit-inline-box;
+    margin-top: 10em;
+
+    position: fixed;
+    left: 50%;
+
+    transform: translate(-50%, -50%);
+    margin: 0 auto;
+    position: fixed;
+    bottom: 0;
+  }
+</style>
+
+</html>
