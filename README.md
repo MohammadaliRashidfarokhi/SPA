@@ -11,7 +11,7 @@ Bootstrapped with Create Snowpack App (CSA) and slightly modified with the devel
 # Prerequisite:
 Node.js and npm are already installed on your system.
 
-# Requirements 
+# Requirements:
 
 F1: PWD Functional requirements
 
