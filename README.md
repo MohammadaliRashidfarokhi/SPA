@@ -4,7 +4,9 @@ A03 SPA
 Bootstrapped with Create Snowpack App (CSA) and slightly modified with the development environment.
 
 # Demo:
-
+  
+![Demo-Gif](https://user-images.githubusercontent.com/70851390/163287174-9dc1058c-5227-4a7f-aa1c-b30a67995b97.gif)
+  
 
 # Run Instructions:
 
