@@ -1,4 +1,4 @@
-A03 SPA
+Single Page Application (SPA)
 ======================
 
 # Demo:
