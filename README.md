@@ -89,27 +89,27 @@ F5: Alarm window application
 
 # How the project has been done:
 
-1. For each feature (F1, F2 and so on) you have implemented, write a 5-10 sentences text about it and let the teacher know how you solved it. This is essential. There is no grade if you fail to write about the features.
+1. For each feature (F1, F2 and so on) you have implemented, write a 5-10 sentences text about it and let the teacher know how you solved it.
 
 The spa was created by ensuring that all the functionalities will be executed without needing to refresh the page.
 All windows will be added to the single page using Document Object Model (DOM), the DOM is a tree structure that represents the HTML document and its elements as well as their attributes and CSS.
 The drag and move function were done by using the mouse event, which will control the element's position by changing the CSS elements according to the clientX and clientY (using javascript).
 The closing functionality will close the window by checking The DOM Tree of Objects and removing the element from the DOM.
 The opening functionality will open the window by adding the element to the DOM.
-Even though all windows will be added to a single page, each one of them is a different object, and each one of them will have its controls.
+Even though all windows will be added to a single page, each one of them is a different object, and each one of them will have its controls.<br><br>
 The user will be able to play multiple memory games simultaneously by clicking on the memory game button, and each one of them has its shadow root.
 The variable attempts will be used to keep track of the number of attempts the user has made, when the user wins the game, a message will be displayed with the number of attempts.
 Every time the user clicks on the chat button, the chat window will be added to the DOM, and the chat window will be removed when the user clicks on the close button, so the user will be able to have several chat windows.
-When the user starts a chat window, the local storage will be checked if it contains a username or not, it does not, so by using JavaScript and input box, the user will be asked to enter a username, and the username will be saved in the local storage.
+When the user starts a chat window, the local storage will be checked if it contains a username or not, it does not, so by using JavaScript and input box, the user will be asked to enter a username, and the username will be saved in the local storage.<br><br>
 In case the Local Storage contains the username, the username will be displayed in the chat window, and a div will be created to display the messages.
 The user will be able to send their messages by using a textarea with 3 rows.
 The user will be able to see all the old messages by using the scroll bar.
-The user can choose to reset all messages by clicking on the reset button, to remove all the child elements from the div.
+The user can choose to reset all messages by clicking on the reset button, to remove all the child elements from the div.<br><br>
 The user can start multiple alarm windows and each one will track its own time, and the user can stop the alarm by clicking on the clean alarm button.
 The user will be asked to enter the date, hour, minute, and second by using input element type (DateTime-local), and the alarm will be set to the date and time the user entered.
 The time on the screen will be updated every second, by using the setinterval function.
 The current time and the alarm time will be compared, if the current time is less than the alarm time, the alarm will be triggered, and the audio will be played.
-The user can close the alarm window by clicking on the close button, and the alarm will be removed from the DOM.
+The user can close the alarm window by clicking on the close button, and the alarm will be removed from the DOM.<br><br>
 
 2. Write a concluding text, 5-10 sentences, about your implementation of the project. Write about hard/easy, troubles/solutions, and so on, things you encountered and thought of during the project and its implementation.
 In the beginning, it was a little bit hard to understand the difference between the attributes and the properties, and how to use them or reassigned them.
